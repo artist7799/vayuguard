@@ -1,0 +1,29 @@
+{
+  "name": "vayuguard-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "VayuGuard - Air Quality Monitoring & Analytics Platform Monorepo",
+  "scripts": {
+    "dev:frontend": "npm --prefix frontend run dev",
+    "dev:backend": "npm --prefix backend run dev",
+    "build:frontend": "npm --prefix frontend run build",
+    "build:backend": "npm --prefix backend run build",
+    "test:frontend": "npm --prefix frontend test",
+    "test:backend": "npm --prefix backend test"
+  },
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "keywords": [
+    "air-quality",
+    "monitoring",
+    "fastapi",
+    "express",
+    "react",
+    "prisma",
+    "postgresql"
+  ],
+  "author": "VayuGuard Team",
+  "license": "MIT"
+}
